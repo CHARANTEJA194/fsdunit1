@@ -1,14 +1,17 @@
 .top{
-    width : 50% ;
-    height : 50%;
+    width : 50%;
+    height : 100px;
     background-color: rgb(202, 18, 46);
     border: black 2px soild ;
-    font-size: 100px;
+    font-size: 0.75em;
+    justify-content: center;
+    align-items: center;
 
 }
 .child{
     width: 25%;
-    height : 10%;
+    height : 50px;
     background-color: aqua;
+    font-size: 3vh;
 
 }
