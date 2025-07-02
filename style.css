@@ -1,0 +1,14 @@
+.top{
+    width : 50% ;
+    height : 50%;
+    background-color: rgb(202, 18, 46);
+    border: black 2px soild ;
+    font-size: 100px;
+
+}
+.child{
+    width: 25%;
+    height : 10%;
+    background-color: aqua;
+
+}
