@@ -11,13 +11,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Eventbind from './componets/Eventbind';
 import Conditionalrendering from './componets/Conditionalrendering';
+import Nmaelist from './componets/Nmaelist';
+import Stylesheet from './componets/Stylesheet';
+import Inlinecss from './componets/Inlinecss';
+import './appStyles.css';
+import styles from './appStyle.module.css';
+import From from './componets/From';
+import LifecycleA from './componets/LifecycleA';
+import Fragmentdemo from './componets/Fragmentdemo';
+import Table from './componets/Table';
 
 export default class App extends Component{
   render() {
    // const name = "charan";
    // const meassage = " hi this charan";
     return (
+      
+      
       <div>
+        <Fragmentdemo/>
+        <Table/>
+        
+        {/* <LifecycleA />  */}
+        {/* <From/> */}
+      {/* //   <h1 className='error'>error</h1>
+      //   <h1 className={styles.success}>success</h1> */}
        {/* <Greeting/>
         <Greet name = " charan "  city = " kadapa" children = " action"/>
         <Greet name = " teja"  city = " chennur " children = " retake" />
@@ -32,8 +50,12 @@ export default class App extends Component{
         <Button variant="primary">Primary</Button>
         <Wishme />
         <Button > primary</Button> 
-        <Eventbind /> */}
-        <Conditionalrendering />
+        <Eventbind /> 
+        <Conditionalrendering /> 
+        <Nmaelist/>*/}
+        {/* // <Stylesheet  primary ={true}/>
+        // <Inlinecss />  */}
+      
 
 
        
