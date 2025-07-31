@@ -76,7 +76,7 @@ function App() {
     <div className="d-flex justify-content-center align-items-center vh-100 px-3">
       <div className="chat-container d-flex flex-column w-100">
         <div className="chat-header text-center p-3">
-          <h4 className="mb-0">🧠 AI LLM Chat Assistant</h4>
+          <h4 className="mb-0">🧠 AI  Chat Assistant</h4>
         </div>
 
         <div className="message-area p-3 d-flex flex-column">
@@ -107,7 +107,7 @@ function App() {
             onClick={handleSendMessage}
             disabled={!inputMessage.trim()}
           >
-            ➤
+            ➤ send
           </button>
         </div>
       </div>
